@@ -20,7 +20,7 @@ jobs:
 
       - name: Install frontend dependencies
         working-directory: ./frontapp
-        run: npm ci
+        run: npm install vue@latest
 
       - name: Build Vue app
         working-directory: ./frontapp
