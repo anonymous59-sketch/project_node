@@ -15,7 +15,7 @@ app.get("/hello", (req, res) => {
 
 
 app.get("/api/board", (req, res) => {
-  res.send({ title: "노드 api 서버 update!!!!" });
+  res.send({ title: "노드 api 서버 success!!!!" });
 });
 
 // vue.js build 이후
